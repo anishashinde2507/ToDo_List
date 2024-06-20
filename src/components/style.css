@@ -1,0 +1,106 @@
+/* style.css */
+
+/* style.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+  background-image: url("https://th.bing.com/th/id/OIP.WEQc1N3bcK1U-FEwIHMVrAAAAA?rs=1&pid=ImgDetMain");
+  /* background-size: cover; */
+  
+}
+
+.heading{
+  text-align: center;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+
+}
+
+.div1 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.div1 img{
+  width: 100px;
+  height: 100px;
+ 
+}
+
+
+
+
+.addItems {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.add-btn {
+  cursor: pointer;
+  font-size: 24px;
+  color: #28a745;
+}
+
+.showItems {
+  margin-top: 20px;
+}
+
+.eachItem {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-btn {
+  display: flex;
+}
+
+.effect04 {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.effect04 span {
+  transition: 0.3s;
+}
+
+.effect04:hover span {
+  letter-spacing: 2px;
+}
+
+/* Responsive styles */
+@media (max-width: 450px) {
+  .div1 {
+    width: 100%;
+  }
+}
